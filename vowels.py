@@ -1,2 +1,6 @@
-a=int(input("Enter the word"))
-vowels=["a","e","i","o","u"]
+a=(input("Enter the word"))
+vowels=["A","E","I","O","U","a","e","i","o","u"]
+for i in a:
+         if i in vowels:
+             print(i)
+
